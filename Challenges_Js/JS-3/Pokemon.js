@@ -108,7 +108,7 @@ async function cargarPreguntasConOpciones() {
     //12 limpiar los resultados previos y actualizar la imagen del pokemon buscado
     infoPokemon.innerHTML = `
                 <h3 class="dato">---DESCRIPTION---</h3>
-                <p class="dato">Name: ${pokemon.name}</p>
+                
                 <p class="dato">Weight: ${pokemon.weight}</p>
                 <p class="dato">height: ${pokemon.height}</p>
                 <p class="dato">Type: ${pokemon.types.map(typeInfo => typeInfo.type.name).join(', ')}</p>
